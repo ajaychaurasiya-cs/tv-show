@@ -1,0 +1,131 @@
+.home{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.title-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    
+}
+.home-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 5rem;
+    background: #0e0e0e;
+    padding: 0 1rem ;
+    color: white;
+    border-radius: 5rem;
+}
+
+.container{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+}
+.card{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+    
+    border: 3px solid gray;
+    
+}
+.card-cont{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.home-img-cont{
+   width: 100%;
+   
+}
+.home-img{
+    border-radius: 1rem;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.card-detail{
+   display: grid;
+   grid-template-columns: auto;
+   grid-template-rows: auto auto;
+   text-wrap: nowrap;
+}
+.box{
+    background: rgba(96, 96, 96, 0.397);
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
+
+
+
+}
+.show-title{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
+.btn{
+    background: rgb(84, 48, 114);
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-wrap: nowrap;
+
+}
+.btn:hover{
+    background: rgb(0, 0, 0);
+    
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    .home{
+        background: #0000006a;
+    }
+    .card-cont{
+        width: 100%;
+    }
+    
+    p{
+        font-size: 100%;
+    }
+    
+    .container{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-areas: auto ;
+    }
+    .card{
+        padding: 5px;
+    }
+    
+}
+@media only screen and (max-width: 1024px){
+  
+    .card-cont{
+        display: grid;
+        align-items:center;
+        justify-content: center;
+    }
+    
+    
+
+    
+}

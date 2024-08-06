@@ -1,0 +1,33 @@
+.show-detail{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.detail-img-cont{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   margin: 1rem;
+}
+
+.detail-img{
+    width: 100%;
+}
+.title{
+    text-wrap: nowrap;
+    margin: 1rem;
+    display: grid; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.detail-para{
+    padding: 2rem;
+}
+.detail-btn{
+    display: flex;
+    text-wrap: nowrap;
+}
